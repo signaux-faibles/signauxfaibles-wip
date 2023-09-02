@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <title>Signaux Faibles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="bg">
+        <img src="logo.svg" style="height: 150px; margin: 100px; margin-top: 150px;"/>
+        <div class="text">
+            L'application est en cours de maintenance<br/>
+        </div>
+        <div class="urgence">
+            En cas d'urgence, <a href="mailto:contact@signaux-faibles.beta.gouv.fr">contactez nous</a>
+        </div>
+</div>
+</body>
+
+<style>
+
+    @font-face {
+        font-family: 'saira';
+        src: url('SairaCondensed-Regular.ttf');
+    }
+    .text {
+        font-family: saira;
+        font-size: 28px;
+        color: #555;
+    }
+    .urgence {
+        font-family: saira;
+        font-size: 22px;
+        color: #555;
+    }
+    .bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: radial-gradient(
+                circle at center,
+                rgb(255, 255, 255),
+                rgb(233, 232, 232) 75%,
+                rgb(187, 187, 187) 100%
+        );
+    }
+</style>
+</html>
